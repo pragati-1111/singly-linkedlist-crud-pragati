@@ -108,17 +108,17 @@ int main() {
 
         switch (choice) {
             case 1:
-                cout << "Enter data to insert: ";
+                cout << "Enter data to insert:= ";
                 cin >> data;
                 list.insertAtBeginning(data);
                 break;
             case 2:
-                cout << "Enter data to search: ";
+                cout << "Enter data to search:= ";
                 cin >> data;
                 list.search(data);
                 break;
             case 3:
-                cout << "Enter data to delete: ";
+                cout << "Enter data to delete:= ";
                 cin >> data;
                 list.deleteNode(data);
                 break;
